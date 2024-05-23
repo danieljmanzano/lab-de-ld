@@ -1,0 +1,3 @@
+Na aula de hoje, representei a expressão Q = (A.B) + ((B+C).(B.C)) no Quartus usando os switchs (inputs) sw0, sw1 e sw2 representados, respectivamente, por A, B e C,  e o led (output) ledr0 representado por Q
+Após isso, obti a expressão simplificada Q2 = B.(A+C), cujo resultado (output) foi visto no ledr1, representado por Q2 
+Usei a placa Cyclone V

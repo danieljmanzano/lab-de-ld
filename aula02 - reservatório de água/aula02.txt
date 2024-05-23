@@ -1,0 +1,8 @@
+-na aula de hoje (19/03), resolvi o problema do reservatório de água utilizando o quartus com a placa Cyclone V. 
+
+-para representar os componentes do problema, usei os switchs 0, 1 e 2 como inputs representando S0, S1 e S2, respectivamente; *os mesmos nomes no problema foram usados para nomear os componentes
+além desses, usei os leds 0, 1, 2 e 3 representando V1, V2, V3 e o alarme (nomeado como "A" no programa) como outputs.
+
+-no funcionamento do programa, toda vez em que o alarme era acionado, o led 3 era aceso como um tipo de aviso e as válvulas 1 e 2 são acionadas.
+
+^caso haja problema em algum sensor ou na válvula 3, para medida de segurança, as válvulas 1 e 2 são abertas para ejetar todo excesso de água e a luz de alarme é acesa para alertar o usuário do problema.

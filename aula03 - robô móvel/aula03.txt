@@ -1,0 +1,5 @@
+-na aula de hoje (02/04), resolvi o problema do robo móvel com o quartus usando a placa Cyvlone V.
+-para representar os sensores, usei os switchs 0, 1 e 2 como, respectivamente, esquerda, frente e direita; para representar os comandos, usei os leds 0, 1 e 2 como, respectivamente, virar esquerda, ir para frente e virar para a direita.
+-nos casos em que há mais de um comando possível, dei prioridade ao comando de seguir em frente. 
+-no caso em que não há obstáculos em ambos os lados, dei preferência ao lado direito, como entendido que deveria ser feito de acordo com os comandos do problema (virar a direita especificamente quando há obstáculo apenas na frente, mesmo que possível virar à esquerda também).
+-no caso em que há obstáculos em todos os lados (frente, esquerda e direita), o robô vira à direita. após isso, ele pode virar à direita novamente e andar para o lado em que não há obstáculo (que seria, inicialmente, o lado de trás).
