@@ -1,0 +1,13 @@
+-na aula de hoje (14/05), fiz um circuito de add/sub usando o quartus com a placa Cyclone V.
+-para digitar os números, usei os 4 primeiros switchs (0, 1, 2 e 3) para representar o número y e o stiwch 4 para seu sinal; além disso, usei os demais switchs para representar o número x, com o último à esquerda sendo sinal.
+*os números têm seus respectivos bits menos significativos no switch mais à direita de sua representação (ex.: o bit do switch 0 representa o número 1 em hexadecimal do operando y).
+
+-usei os três primeiros displays de 7 segmentos (os três à direita da placa) para representar o resultado da operação e os displays 4 e 5 (os dois à esquerda da placa) para representar os números digitados.
+*o display 2 (terceiro na contagem da direita para esquerda da placa) representa unicamente o sinal do resultado da operação.
+
+-além dos displays, usei os leds 4 e 9 para representar, respectivamente, os sinal dos operandos y e x.
+-a operação feita é controlada pelo push button 0, fazendo a soma de x + y caso pressionado e a subtração x - y caso não pressionado.
+*para melhor entendimento da operação, coloquei o número x representado à esquerda do y no display de 7 segmentos para interpretação da operação na "sequência certa" (x + y ou x - y).
+*além disso, os switchs também seguem a mesma lógica acima (5 switchs da esquerda para x e 5 switchs da direita para y).
+
+**obs para mim mesmo: o bloco de subtração de 4 bits aqui faz a subtração considerando casos negativos, então esse é meio que a versão "mais certa" das aulas 7 e 8
