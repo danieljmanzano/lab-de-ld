@@ -1,0 +1,4 @@
+-na aula de hoje (16/04), fiz um somador completo no quartus usando a placa Cyclone V.
+-usei os switchs 0, 1 e 2 como, respectivamente, os valores x, y e carry in, que representam os valores a serem somados (caso switch ativo, 1; caso switch inativo, 0).
+-usei os leds 0 e 1 como representantes do resultado da soma entre os três valores, que, quando aceso, significa que há 1 naquela posição, e se apagado, há um 0.
+-exemplificando: caso acione um switch, o primeiro led acende (01 na base binária, 1 na decimal); caso acione dois switchs, o segundo led acende sem o primeiro (10 na base binária, 2 na decimal); caso acione os três, os dois leds acendem (11 em binário, 3 em decimal).
