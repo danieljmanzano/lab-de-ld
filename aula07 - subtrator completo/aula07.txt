@@ -1,0 +1,6 @@
+-na aula de hoje (30/04), fiz um subtrator de 1 bit no quartus usando a placa Cyclone V.
+-como inputs, coloquei x no switch 0, y no switch 1 e o borrow in no switch 2.
+-como outputs, coloquei a diferença resultante no led 0 e o borrow out no led 1.
+-assim, os números a serem subtraídos são inseridos nos switchs e o resultado, junto do carry out, são representados como luzes nos leds (caso aceso, aquilo representado pelo led é 1).
+
+**obs para mim mesmo: esse aqui não trata dos casos em que o resultado é negativo, o que eu arrumei (e trata do jeito certo) ta lá na aula 9

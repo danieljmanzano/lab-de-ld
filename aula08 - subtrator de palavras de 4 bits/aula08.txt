@@ -1,0 +1,8 @@
+-na aula de hoje (07/05), usei o quartus para representar uma subtração de duas palavras de 4 bits cada usando a placa Cyclone V.
+-usei os switchs de 0 a 3 para representar o número a ser subtraído (com o switch 0 representando o bit menos significativo) e os swtichs de 6 a 9 para representar o subtrator (com o switch 6 representando o bit menos significativo).
+-usei o primeiro display de sete segmentos (da direita para a esquerda na placa) para mostrar o resultado da diferença em hexadecimal. 
+-para representar os números digitados nos switchs, coloquei o primero número (a ser subtraído) no terceiro display da direita para esquerda, enquanto o segundo número (subtrator) no quarto display.
+-além de tudo, coloquei o primeiro led (led 0) como um sinal de subtração negativa (de acordo com o sinal do último borrow out da sequência).
+-para realizar as subtrações e representar os números nos displays, usei blocos feitos das últimas aulas (bloco "subtrator" e "display") no circuito.
+
+**obs para mim mesmo: esse aqui não trata de casos em que o resultado é negativo (o que faz isso eu arrumei lá na aula 9)
