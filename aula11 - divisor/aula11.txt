@@ -1,0 +1,7 @@
+-na aula de hoje (28/05), fiz um divisor de palavras de até 4 bits (com um quinto bit para sinal) no quartus usando a placa Cyclone V
+-para os outputs, usei o display 0 para representar o resultado do quociente, o display 1 para o resto, e os displays 2 e 4 para, respectivamente, o divisor (y) e o dividendo (x);
+além desses, usei também os displays 3 e 5 para representar unicamente o sinal de x e y (aparece um sinal "-" no display ao lado para quando o número for negativo); para o sinal do quociente e do resto usei os leds 0 e 2 respectivamente;
+*como um "extra", coloquei o último led (9) como um sinal de erro na divisão que ocorre toda vez que o divisor é 0 e, portanto, quando aceso, desconsidera os resultados do display.
+-como inputs, usei os 5 primeiros switchs (de 0 a 4) para o divisor (y), sendo o switch 4 seu sinal e o switch 0 o bit menos significativo. pela mesma lógica fiz o dividendo (x) que vai dos switchs 5 a 9 (5 é o lsb e 9 é o sinal).
+
+**obs.: para ficar mais "intuitivo", a representação no display e nos switchs é do número x à esquerda e y à direita, referenciando uma operação de x/y.

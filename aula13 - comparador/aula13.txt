@@ -1,0 +1,5 @@
+-na aula de hoje (11/06), fiz um comparador de números no quartus usando a placa Cyclone V
+-para os inputs, os switchs de 0 a 4 são o primeiro número (0 é o LSB, e 4 é o sinal) e os switchs de 5 a 9 para o segundo número (5 é o LSB, 9 é o sinal)
+-para os outputs, usei os displays (de sete segmentos) 0 e 4 para representar os números, sendo o primeiro no 0 e o segundo no 4. além disso, quando os números são negativos, uso o display à esquerda do número com o sinal negativo ("-") 
+-por fim, os 2 leds ao centro (4 e 5) ligam quando os números são iguais, o led 0 acende quando o primeiro número é maior e o led 9 quando o segundo é maior (basicamente, o led acende abaixo do display com maior número)
+-obs.: nessa atividade usei um bloco de comparador de módulo e desenvolvi, à parte, uma lógica para comparar com base também no sinal de cada um e, então, implementei os dois nesse circuito

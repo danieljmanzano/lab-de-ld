@@ -1,0 +1,4 @@
+-na aula de hoje (04/06), usei o quartus para criar um circuito que calcula a raiz quadrada de um número inserido com a placa Cyclone V.
+-para os inputs, usei os switchs do 0 ao 7 para receber o número, com o switch 0 representando o bit menos significativo e o 7 o mais.
+-para os outputs, usei os displays de 7 segmentos 0 e 1 para representar o resto da operação, o display 2 para o resultado e os displays 4 e 5 para representar o número recebido pelos inputs.
+-a operação é feita com base em números binários, conforme recebido pelos switchs, e os resultados são mostrados em hexadecimal nos displays.
